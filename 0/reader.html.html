@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Читалка Коміксів</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="background-image"></div>
+    <header>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="comic.html">Комікси</a></li>
+                <li><a href="video.html">Відеотека</a></li>
+            </ul>
+        </div>
+        <div class="auth-links">
+            <a href="auth/login.html">Увійти</a>
+            <a href="auth/register.html">Зареєструватися</a>
+        </div>
+    </header>
+    <main>
+        <section class="comic-reader">
+            <div class="comic-viewer">
+                <button class="prev">&#10094;</button>
+                <img src="images/comic1_page1.jpg" alt="Сторінка коміксу" id="comic-page">
+                <button class="next">&#10095;</button>
+            </div>
+            <button id="close-reader">Закрити</button>
+        </section>
+    </main>
+    <footer class="sticky-footer">
+        <p>&copy; 2024 Комікси</p>
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank"><img src="images/icons/facebook.png" alt="Facebook"></a>
+            <a href="https://twitter.com" target="_blank"><img src="images/icons/twitter.png" alt="Twitter"></a>
+            <a href="https://instagram.com" target="_blank"><img src="images/icons/instagram.png" alt="Instagram"></a>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
